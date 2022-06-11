@@ -1,0 +1,141 @@
+{
+  "uid" : "758aca0b8eb88962",
+  "name" : "test_one",
+  "fullName" : "test#test_one",
+  "historyId" : "69ef32528934552b2c483953ffef0122",
+  "time" : {
+    "start" : 1654938175870,
+    "stop" : 1654938175870,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 != 1",
+  "statusTrace" : "attach_text_finalize = None\n\n    def test_one(attach_text_finalize):\n        with allure.step('Step 1'):\n            assert 10 == 10\n        with allure.step(\"Step 2\"):\n>           assert 1 != 1\nE           assert 1 != 1\n\ntest.py:48: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "attach_text_finalize",
+    "time" : {
+      "start" : 1654938175869,
+      "stop" : 1654938175869,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e581f00f67dd775",
+      "name" : "thist is attachment text",
+      "source" : "3e581f00f67dd775.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 != 1",
+    "statusTrace" : "attach_text_finalize = None\n\n    def test_one(attach_text_finalize):\n        with allure.step('Step 1'):\n            assert 10 == 10\n        with allure.step(\"Step 2\"):\n>           assert 1 != 1\nE           assert 1 != 1\n\ntest.py:48: AssertionError",
+    "steps" : [ {
+      "name" : "Step 1",
+      "time" : {
+        "start" : 1654938175870,
+        "stop" : 1654938175870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1654938175870,
+        "stop" : 1654938175870,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 1 != 1\n",
+      "statusTrace" : "  File \"/Users/eivankov/test_proj/test.py\", line 48, in test_one\n    assert 1 != 1\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "attach_text_finalize::fin",
+    "time" : {
+      "start" : 1654938175873,
+      "stop" : 1654938175874,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cfba7596d4d1c375",
+      "name" : "this is finalize text",
+      "source" : "cfba7596d4d1c375.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Eugene.local"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "758aca0b8eb88962.json",
+  "parameterValues" : [ ]
+}

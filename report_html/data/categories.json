@@ -1,0 +1,61 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "test_failure",
+        "uid" : "a5497ea354d5604d",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654938175811,
+          "stop" : 1654938175811,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    }, {
+      "name" : "AssertionError: assert 1 != 1",
+      "children" : [ {
+        "name" : "test_one",
+        "uid" : "758aca0b8eb88962",
+        "parentUid" : "734b6cc593cc1e6562d1f513ee0b5772",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654938175870,
+          "stop" : 1654938175870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "734b6cc593cc1e6562d1f513ee0b5772"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: broken",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "8aae0013c24a5345",
+        "parentUid" : "72b428d900e5622fbab45ba1870cfbfb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654938175864,
+          "stop" : 1654938175865,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72b428d900e5622fbab45ba1870cfbfb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Jun 11 12:02:55 EEST 2022","Sat Jun 11 12:02:55 EEST 2022","0","","test","","","","test_one",""
+"failed","Sat Jun 11 12:02:55 EEST 2022","Sat Jun 11 12:02:55 EEST 2022","0","","test","","","","test_failure",""
+"skipped","Sat Jun 11 12:02:55 EEST 2022","Sat Jun 11 12:02:55 EEST 2022","1","","test","","","","test_skip",""
+"broken","Sat Jun 11 12:02:55 EEST 2022","Sat Jun 11 12:02:55 EEST 2022","1","","test","","","","test_broken",""
+"passed","Sat Jun 11 12:02:55 EEST 2022","Sat Jun 11 12:02:55 EEST 2022","1","","test","","","","test_success",""
