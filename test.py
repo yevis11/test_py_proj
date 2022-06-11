@@ -47,3 +47,10 @@ def test_one(attach_text_finalize):
     with allure.step("Step 2"):
         assert 1 != 1
 
+@allure.severity('Trivial')
+@allure.issue('jira link')
+@allure.testcase('link to testlink')
+@allure.story('Test story ')
+@allure.severity('Medium')
+def test_skip():
+    pytest.skip('reason')
