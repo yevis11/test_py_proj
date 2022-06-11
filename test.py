@@ -54,3 +54,22 @@ def test_one(attach_text_finalize):
 @allure.severity('Medium')
 def test_skip():
     pytest.skip('reason')
+
+  # prod - master
+  # feature 1 - taska 1 - branch 1
+
+@allure.severity('Trivial')
+@allure.issue('jira link')
+@allure.testcase('link to testlink')
+@allure.story('Test story ')
+@allure.severity('Medium')
+def test_skip():
+    pytest.skip('reason')
+
+    @allure.severity('Trivial')
+    @allure.issue('jira link')
+    @allure.testcase('link to testlink')
+    @allure.story('Test story ')
+    @allure.severity('Medium')
+    def test_skip():
+        pytest.skip('reason')
